@@ -403,7 +403,7 @@ I used the following resources to study sentiment analysis,
 understand the original implementation, and learn the concepts 
 involved in building an LLM-based application.
 
--   **Original repository:** [[QwenLM/ai-sentiment-analysis-pipeline](https://github.com/QwenLM/ai-sentiment-analysis-pipeline)]
+-   **Original repository:** [[Mohamad-Hachem/AI_sentiment_analysis_pipeline](https://github.com/Mohamad-Hachem/AI_sentiment_analysis_pipeline.git)]
 -   **YouTube tutorial or channel:** [[AI Career Lab](https://www.youtube.com/@AI_Career_Lab)]
 
 This repository documents my learning, experimentation, and project modifications. 
