@@ -1,0 +1,268 @@
+{
+  "csv_path": "reports_csv_files/sentiment_debug_output.csv",
+  "text_column_used": "text",
+  "total_rows_analyzed": 248,
+  "sentiment_counts": {
+    "negative": 103,
+    "positive": 86,
+    "neutral": 59
+  },
+  "sentiment_percentages": {
+    "negative": 41.53,
+    "positive": 34.68,
+    "neutral": 23.79
+  },
+  "average_lengths": {
+    "negative": {
+      "char_count": 71.79,
+      "word_count": 13.49
+    },
+    "neutral": {
+      "char_count": 66.29,
+      "word_count": 12.64
+    },
+    "positive": {
+      "char_count": 72.94,
+      "word_count": 13.43
+    }
+  },
+  "polarity_score": -0.0685,
+  "agreement_with_labels_percent": 67.34,
+  "failed_predictions": 2,
+  "classification_metrics": {
+    "evaluation_rows": 248,
+    "per_class": {
+      "negative": {
+        "precision": 0.6117,
+        "recall": 0.9,
+        "f1": 0.7283,
+        "support": 70
+      },
+      "neutral": {
+        "precision": 0.7966,
+        "recall": 0.4434,
+        "f1": 0.5697,
+        "support": 106
+      },
+      "positive": {
+        "precision": 0.6628,
+        "recall": 0.7917,
+        "f1": 0.7215,
+        "support": 72
+      }
+    },
+    "macro_f1": 0.6732,
+    "weighted_f1": 0.6585
+  },
+  "top_words_by_sentiment": {
+    "positive": [
+      {
+        "word": "love",
+        "count": 12
+      },
+      {
+        "word": "fun",
+        "count": 9
+      },
+      {
+        "word": "day",
+        "count": 9
+      },
+      {
+        "word": "http",
+        "count": 8
+      },
+      {
+        "word": "like",
+        "count": 8
+      },
+      {
+        "word": "all",
+        "count": 7
+      },
+      {
+        "word": "there",
+        "count": 7
+      },
+      {
+        "word": "out",
+        "count": 6
+      },
+      {
+        "word": "happy",
+        "count": 6
+      },
+      {
+        "word": "know",
+        "count": 6
+      },
+      {
+        "word": "hope",
+        "count": 5
+      },
+      {
+        "word": "new",
+        "count": 5
+      },
+      {
+        "word": "going",
+        "count": 5
+      },
+      {
+        "word": "now",
+        "count": 5
+      },
+      {
+        "word": "good",
+        "count": 5
+      }
+    ],
+    "neutral": [
+      {
+        "word": "back",
+        "count": 6
+      },
+      {
+        "word": "what",
+        "count": 6
+      },
+      {
+        "word": "now",
+        "count": 5
+      },
+      {
+        "word": "out",
+        "count": 5
+      },
+      {
+        "word": "going",
+        "count": 5
+      },
+      {
+        "word": "later",
+        "count": 4
+      },
+      {
+        "word": "http",
+        "count": 4
+      },
+      {
+        "word": "will",
+        "count": 4
+      },
+      {
+        "word": "know",
+        "count": 4
+      },
+      {
+        "word": "got",
+        "count": 4
+      },
+      {
+        "word": "both",
+        "count": 3
+      },
+      {
+        "word": "today",
+        "count": 3
+      },
+      {
+        "word": "its",
+        "count": 3
+      },
+      {
+        "word": "bit",
+        "count": 3
+      },
+      {
+        "word": "new",
+        "count": 3
+      }
+    ],
+    "negative": [
+      {
+        "word": "going",
+        "count": 8
+      },
+      {
+        "word": "get",
+        "count": 8
+      },
+      {
+        "word": "day",
+        "count": 8
+      },
+      {
+        "word": "can",
+        "count": 8
+      },
+      {
+        "word": "all",
+        "count": 7
+      },
+      {
+        "word": "don",
+        "count": 7
+      },
+      {
+        "word": "will",
+        "count": 6
+      },
+      {
+        "word": "what",
+        "count": 6
+      },
+      {
+        "word": "work",
+        "count": 6
+      },
+      {
+        "word": "sad",
+        "count": 5
+      },
+      {
+        "word": "lost",
+        "count": 5
+      },
+      {
+        "word": "days",
+        "count": 5
+      },
+      {
+        "word": "today",
+        "count": 5
+      },
+      {
+        "word": "car",
+        "count": 5
+      },
+      {
+        "word": "like",
+        "count": 5
+      }
+    ]
+  },
+  "example_rows": {
+    "positive": [
+      "http://www.dothebouncy.com/smf - some shameless plugging for the best Rangers forum on earth",
+      "2am feedings for the baby are fun when he is all smiles and coos",
+      " Journey!? Wow... u just became cooler.  hehe... (is that possible!?)",
+      "I really really like the song Love Story by Taylor Swift",
+      " oh Marly, I`m so sorry!!  I hope you find her soon!! <3 <3"
+    ],
+    "neutral": [
+      " Both of you",
+      "test test from the LG enV2",
+      "is back home now      gonna miss every one",
+      "is cleaning the house for her family who is comming later today..",
+      " That`s very funny.  Cute kids."
+    ],
+    "negative": [
+      " I`d have responded, if I were going",
+      " Sooo SAD I will miss you here in San Diego!!!",
+      "my boss is bullying me...",
+      " what interview! leave me alone",
+      " Sons of ****, why couldn`t they put them on the releases we already bought"
+    ]
+  }
+}

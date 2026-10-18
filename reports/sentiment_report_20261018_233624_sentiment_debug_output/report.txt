@@ -1,0 +1,51 @@
+======================================================================
+SENTIMENT ANALYSIS REPORT
+======================================================================
+Source CSV: reports_csv_files/sentiment_debug_output.csv
+Text column used: text
+Rows analyzed (valid predictions): 248
+Failed/missing predictions in source CSV: 2
+
+Sentiment distribution:
+  - positive:     86 rows (34.68%)
+  - neutral :     59 rows (23.79%)
+  - negative:    103 rows (41.53%)
+
+Polarity score: -0.0685
+  closer to 1 = more positive, closer to -1 = more negative
+
+Average text length by sentiment:
+  - negative: 71.79 avg chars, 13.49 avg words
+  - neutral : 66.29 avg chars, 12.64 avg words
+  - positive: 72.94 avg chars, 13.43 avg words
+
+Top keywords by sentiment:
+  - positive: love(12), fun(9), day(9), http(8), like(8), all(7), there(7), out(6), happy(6), know(6)
+  - neutral : back(6), what(6), now(5), out(5), going(5), later(4), http(4), will(4), know(4), got(4)
+  - negative: going(8), get(8), day(8), can(8), all(7), don(7), will(6), what(6), work(6), sad(5)
+
+Agreement with original labels: 67.34%
+
+Classification metrics (ground-truth labels available):
+  - negative: precision=0.6117, recall=0.9, f1=0.7283, support=70
+  - neutral : precision=0.7966, recall=0.4434, f1=0.5697, support=106
+  - positive: precision=0.6628, recall=0.7917, f1=0.7215, support=72
+  - macro-F1: 0.6732
+  - weighted-F1: 0.6585
+
+Sample examples:
+
+POSITIVE EXAMPLES:
+  1. http://www.dothebouncy.com/smf - some shameless plugging for the best Rangers forum on earth
+  2. 2am feedings for the baby are fun when he is all smiles and coos
+  3.  Journey!? Wow... u just became cooler.  hehe... (is that possible!?)
+
+NEUTRAL EXAMPLES:
+  1.  Both of you
+  2. test test from the LG enV2
+  3. is back home now      gonna miss every one
+
+NEGATIVE EXAMPLES:
+  1.  I`d have responded, if I were going
+  2.  Sooo SAD I will miss you here in San Diego!!!
+  3. my boss is bullying me...

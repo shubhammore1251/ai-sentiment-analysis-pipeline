@@ -1,0 +1,242 @@
+{
+  "csv_path": "reports_csv_files/sentiment_debug_output.csv",
+  "text_column_used": "text",
+  "total_rows_analyzed": 198,
+  "sentiment_counts": {
+    "negative": 89,
+    "positive": 66,
+    "neutral": 43
+  },
+  "sentiment_percentages": {
+    "negative": 44.95,
+    "positive": 33.33,
+    "neutral": 21.72
+  },
+  "average_lengths": {
+    "negative": {
+      "char_count": 69.11,
+      "word_count": 13.02
+    },
+    "neutral": {
+      "char_count": 63.12,
+      "word_count": 12.09
+    },
+    "positive": {
+      "char_count": 74.17,
+      "word_count": 14.02
+    }
+  },
+  "polarity_score": -0.1162,
+  "agreement_with_labels_percent": 67.17,
+  "top_words_by_sentiment": {
+    "positive": [
+      {
+        "word": "love",
+        "count": 10
+      },
+      {
+        "word": "fun",
+        "count": 7
+      },
+      {
+        "word": "like",
+        "count": 7
+      },
+      {
+        "word": "there",
+        "count": 6
+      },
+      {
+        "word": "day",
+        "count": 6
+      },
+      {
+        "word": "out",
+        "count": 5
+      },
+      {
+        "word": "know",
+        "count": 5
+      },
+      {
+        "word": "when",
+        "count": 4
+      },
+      {
+        "word": "all",
+        "count": 4
+      },
+      {
+        "word": "can",
+        "count": 4
+      },
+      {
+        "word": "happy",
+        "count": 4
+      },
+      {
+        "word": "time",
+        "count": 4
+      },
+      {
+        "word": "one",
+        "count": 4
+      },
+      {
+        "word": "good",
+        "count": 4
+      },
+      {
+        "word": "lol",
+        "count": 4
+      }
+    ],
+    "neutral": [
+      {
+        "word": "going",
+        "count": 4
+      },
+      {
+        "word": "both",
+        "count": 3
+      },
+      {
+        "word": "now",
+        "count": 3
+      },
+      {
+        "word": "later",
+        "count": 3
+      },
+      {
+        "word": "today",
+        "count": 3
+      },
+      {
+        "word": "its",
+        "count": 3
+      },
+      {
+        "word": "http",
+        "count": 3
+      },
+      {
+        "word": "bit",
+        "count": 3
+      },
+      {
+        "word": "will",
+        "count": 3
+      },
+      {
+        "word": "out",
+        "count": 3
+      },
+      {
+        "word": "say",
+        "count": 3
+      },
+      {
+        "word": "what",
+        "count": 3
+      },
+      {
+        "word": "test",
+        "count": 2
+      },
+      {
+        "word": "back",
+        "count": 2
+      },
+      {
+        "word": "gonna",
+        "count": 2
+      }
+    ],
+    "negative": [
+      {
+        "word": "get",
+        "count": 8
+      },
+      {
+        "word": "don",
+        "count": 7
+      },
+      {
+        "word": "going",
+        "count": 6
+      },
+      {
+        "word": "work",
+        "count": 6
+      },
+      {
+        "word": "all",
+        "count": 6
+      },
+      {
+        "word": "can",
+        "count": 6
+      },
+      {
+        "word": "sad",
+        "count": 5
+      },
+      {
+        "word": "lost",
+        "count": 5
+      },
+      {
+        "word": "today",
+        "count": 5
+      },
+      {
+        "word": "car",
+        "count": 5
+      },
+      {
+        "word": "like",
+        "count": 5
+      },
+      {
+        "word": "really",
+        "count": 5
+      },
+      {
+        "word": "what",
+        "count": 4
+      },
+      {
+        "word": "gonna",
+        "count": 4
+      },
+      {
+        "word": "days",
+        "count": 4
+      }
+    ]
+  },
+  "example_rows": {
+    "positive": [
+      "http://www.dothebouncy.com/smf - some shameless plugging for the best Rangers forum on earth",
+      "2am feedings for the baby are fun when he is all smiles and coos",
+      " Journey!? Wow... u just became cooler.  hehe... (is that possible!?)",
+      "I really really like the song Love Story by Taylor Swift",
+      " oh Marly, I`m so sorry!!  I hope you find her soon!! <3 <3"
+    ],
+    "neutral": [
+      " Both of you",
+      "test test from the LG enV2",
+      "is back home now      gonna miss every one",
+      "is cleaning the house for her family who is comming later today..",
+      " That`s very funny.  Cute kids."
+    ],
+    "negative": [
+      " I`d have responded, if I were going",
+      " Sooo SAD I will miss you here in San Diego!!!",
+      "my boss is bullying me...",
+      " what interview! leave me alone",
+      " Sons of ****, why couldn`t they put them on the releases we already bought"
+    ]
+  }
+}

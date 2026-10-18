@@ -1,0 +1,43 @@
+======================================================================
+SENTIMENT ANALYSIS REPORT
+======================================================================
+Source CSV: reports_csv_files/sentiment_debug_output.csv
+Text column used: text
+Rows analyzed: 198
+
+Sentiment distribution:
+  - positive:     66 rows (33.33%)
+  - neutral :     43 rows (21.72%)
+  - negative:     89 rows (44.95%)
+
+Polarity score: -0.1162
+  closer to 1 = more positive, closer to -1 = more negative
+
+Average text length by sentiment:
+  - negative: 69.11 avg chars, 13.02 avg words
+  - neutral : 63.12 avg chars, 12.09 avg words
+  - positive: 74.17 avg chars, 14.02 avg words
+
+Top keywords by sentiment:
+  - positive: love(10), fun(7), like(7), there(6), day(6), out(5), know(5), when(4), all(4), can(4)
+  - neutral : going(4), both(3), now(3), later(3), today(3), its(3), http(3), bit(3), will(3), out(3)
+  - negative: get(8), don(7), going(6), work(6), all(6), can(6), sad(5), lost(5), today(5), car(5)
+
+Agreement with original labels: 67.17%
+
+Sample examples:
+
+POSITIVE EXAMPLES:
+  1. http://www.dothebouncy.com/smf - some shameless plugging for the best Rangers forum on earth
+  2. 2am feedings for the baby are fun when he is all smiles and coos
+  3.  Journey!? Wow... u just became cooler.  hehe... (is that possible!?)
+
+NEUTRAL EXAMPLES:
+  1.  Both of you
+  2. test test from the LG enV2
+  3. is back home now      gonna miss every one
+
+NEGATIVE EXAMPLES:
+  1.  I`d have responded, if I were going
+  2.  Sooo SAD I will miss you here in San Diego!!!
+  3. my boss is bullying me...
